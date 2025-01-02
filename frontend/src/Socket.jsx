@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { useChat } from './context/ChatContext';
 // import beepSound from "./assets/ping-82822.mp3"; // Uncomment if you want to use sound
 
-const URL = "http://localhost:5000"; // Server URL
+const URL = "https://randomchatapp-dqqv.onrender.com"; // Server URL
 
 export const socket = io(URL, {
     autoConnect: false, // We manage connection explicitly
